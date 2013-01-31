@@ -98,10 +98,6 @@
   path = vim/bundle/Shougo-neocomplcache
   url = https://github.com/Shougo/neocomplcache.git
   ignore = dirty
-[submodule "vim/bundle/skwp-vim-colors-solarized"]
-  path = vim/bundle/skwp-vim-colors-solarized
-  url = https://github.com/skwp/vim-colors-solarized
-  ignore = dirty
 [submodule "vim/bundle/tpope-vim-pathogen"]
   path = vim/bundle/tpope-vim-pathogen
   url = https://github.com/tpope/vim-pathogen
@@ -255,101 +251,133 @@
   url = https://github.com/briandoll/change-inside-surroundings.vim.git
   ignore = dirty
 [submodule "vim/bundle/timcharper-textile"]
-	path = vim/bundle/timcharper-textile
+  path = vim/bundle/timcharper-textile
   url = https://github.com/timcharper/textile.vim.git
   ignore = dirty
 [submodule "vim/bundle/vim-scripts-Specky"]
-	path = vim/bundle/vim-scripts-Specky
-	url = https://github.com/vim-scripts/Specky.git
+  path = vim/bundle/vim-scripts-Specky
+  url = https://github.com/vim-scripts/Specky.git
   ignore = dirty
 [submodule "vim/bundle/tpope-vim-bundler"]
-	path = vim/bundle/tpope-vim-bundler
-	url = https://github.com/tpope/vim-bundler
+  path = vim/bundle/tpope-vim-bundler
+  url = https://github.com/tpope/vim-bundler
   ignore = dirty
 [submodule "vim/bundle/tpope-vim-rake"]
-	path = vim/bundle/tpope-vim-rake
-	url = https://github.com/tpope/vim-rake.git
+  path = vim/bundle/tpope-vim-rake
+  url = https://github.com/tpope/vim-rake.git
   ignore = dirty
 [submodule "vim/bundle/skwp-vim-easymotion"]
-	path = vim/bundle/skwp-vim-easymotion
-	url = https://github.com/skwp/vim-easymotion
+  path = vim/bundle/skwp-vim-easymotion
+  url = https://github.com/skwp/vim-easymotion
   ignore = dirty
 [submodule "vim/bundle/groenewege-vim-less"]
-	path = vim/bundle/groenewege-vim-less
-	url = https://github.com/groenewege/vim-less.git
+  path = vim/bundle/groenewege-vim-less
+  url = https://github.com/groenewege/vim-less.git
   ignore = dirty
 [submodule "vim/bundle/mattn-webapi-vim"]
-	path = vim/bundle/mattn-webapi-vim
-	url = https://github.com/mattn/webapi-vim.git
+  path = vim/bundle/mattn-webapi-vim
+  url = https://github.com/mattn/webapi-vim.git
   ignore = dirty
 [submodule "vim/bundle/astashov-vim-ruby-debugger"]
-	path = vim/bundle/astashov-vim-ruby-debugger
-	url = https://github.com/astashov/vim-ruby-debugger
+  path = vim/bundle/astashov-vim-ruby-debugger
+  url = https://github.com/astashov/vim-ruby-debugger
   ignore = dirty
 [submodule "vim/bundle/aaronjensen-vim-sass-status"]
-	path = vim/bundle/aaronjensen-vim-sass-status
-	url = https://github.com/aaronjensen/vim-sass-status.git
-  ignore = dirty
-[submodule "vim/bundle/skwp-vim-powerline"]
-	path = vim/bundle/skwp-vim-powerline
-	url = https://github.com/skwp/vim-powerline.git
+  path = vim/bundle/aaronjensen-vim-sass-status
+  url = https://github.com/aaronjensen/vim-sass-status.git
   ignore = dirty
 [submodule "vim/bundle/briancollins-vim-jst"]
-	path = vim/bundle/briancollins-vim-jst
-	url = https://github.com/briancollins/vim-jst
+  path = vim/bundle/briancollins-vim-jst
+  url = https://github.com/briancollins/vim-jst
   ignore = dirty
 [submodule "vim/bundle/pangloss-vim-javascript"]
-	path = vim/bundle/pangloss-vim-javascript
-	url = https://github.com/pangloss/vim-javascript
+  path = vim/bundle/pangloss-vim-javascript
+  url = https://github.com/pangloss/vim-javascript
   ignore = dirty
 [submodule "vim/bundle/chrisbra-NrrwRgn"]
-	path = vim/bundle/chrisbra-NrrwRgn
-	url = https://github.com/chrisbra/NrrwRgn
+  path = vim/bundle/chrisbra-NrrwRgn
+  url = https://github.com/chrisbra/NrrwRgn
   ignore = dirty
 [submodule "zsh/prezto"]
-	path = zsh/prezto
-	url = https://github.com/sorin-ionescu/prezto.git
+  path = zsh/prezto
+  url = https://github.com/sorin-ionescu/prezto.git
   ignore = dirty
 [submodule "vim/bundle/skwp-YankRing"]
-	path = vim/bundle/skwp-YankRing
-	url = https://github.com/skwp/YankRing.vim
+  path = vim/bundle/skwp-YankRing
+  url = https://github.com/skwp/YankRing.vim
   ignore = dirty
 [submodule "vim/bundle/tpope-vim-abolish"]
-	path = vim/bundle/tpope-vim-abolish
-	url = https://github.com/tpope/vim-abolish
+  path = vim/bundle/tpope-vim-abolish
+  url = https://github.com/tpope/vim-abolish
   ignore = dirty
 [submodule "vim/bundle/jtratner-vim-flavored-markdown"]
-	path = vim/bundle/jtratner-vim-flavored-markdown
-	url = https://github.com/jtratner/vim-flavored-markdown.git
+  path = vim/bundle/jtratner-vim-flavored-markdown
+  url = https://github.com/jtratner/vim-flavored-markdown.git
   ignore = dirty
 [submodule "vim/bundle/xsunsmile-showmarks"]
-	path = vim/bundle/xsunsmile-showmarks
-	url = https://github.com/xsunsmile/showmarks.git
+  path = vim/bundle/xsunsmile-showmarks
+  url = https://github.com/xsunsmile/showmarks.git
   ignore = dirty
 [submodule "vim/bundle/digitaltoad-vim-jade"]
-	path = vim/bundle/digitaltoad-vim-jade
-	url = https://github.com/digitaltoad/vim-jade.git
+  path = vim/bundle/digitaltoad-vim-jade
+  url = https://github.com/digitaltoad/vim-jade.git
   ignore = dirty
 [submodule "vim/bundle/tpope-vim-ragtag"]
-	path = vim/bundle/tpope-vim-ragtag
-	url = https://github.com/tpope/vim-ragtag
+  path = vim/bundle/tpope-vim-ragtag
+  url = https://github.com/tpope/vim-ragtag
   ignore = dirty
 [submodule "vim/bundle/vim-scripts-TagHighlight"]
-	path = vim/bundle/vim-scripts-TagHighlight
-	url = https://github.com/vim-scripts/TagHighlight.git
-  ignore = dirty
-[submodule "vim/bundle/jelera-vim-javascript-syntax"]
-	path = vim/bundle/jelera-vim-javascript-syntax
-	url = https://github.com/jelera/vim-javascript-syntax.git
-  ignore = dirty
-[submodule "vim/bundle/itspriddle-vim-jquery"]
-	path = vim/bundle/itspriddle-vim-jquery
-	url = https://github.com/itspriddle/vim-jquery.git
-  ignore = dirty
-[submodule "vim/bundle/vim-slim"]
-	path = vim/bundle/vim-slim
-	url = https://github.com/slim-template/vim-slim.git
+  path = vim/bundle/vim-scripts-TagHighlight
+  url = https://github.com/vim-scripts/TagHighlight.git
   ignore = dirty
 [submodule "vim/bundle/airblade-vim-gitgutter"]
 	path = vim/bundle/airblade-vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+[submodule "vim/bundle/jelera-vim-javascript-syntax"]
+  path = vim/bundle/jelera-vim-javascript-syntax
+  url = https://github.com/jelera/vim-javascript-syntax.git
+  ignore = dirty
+[submodule "vim/bundle/itspriddle-vim-jquery"]
+  path = vim/bundle/itspriddle-vim-jquery
+  url = https://github.com/itspriddle/vim-jquery.git
+  ignore = dirty
+[submodule "vim/bundle/vim-slim"]
+  path = vim/bundle/vim-slim
+  url = https://github.com/slim-template/vim-slim.git
+  ignore = dirty
+[submodule "vim/bundle/git:--github.com-altercation-vim-colors-solarized"]
+  path = vim/bundle/git:--github.com-altercation-vim-colors-solarized
+  url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/bundle/git:--github.com-Lokaltog-vim-powerline"]
+  path = vim/bundle/git:--github.com-Lokaltog-vim-powerline
+  url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "vim/bundle/git:--github.com-ap-vim-css-color"]
+  path = vim/bundle/git:--github.com-ap-vim-css-color
+  url = git://github.com/ap/vim-css-color.git
+[submodule "vim/bundle/mbadran-headlights"]
+  path = vim/bundle/mbadran-headlights
+  url = https://github.com/mbadran/headlights
+[submodule "vim/bundle/sickill-vim-pasta"]
+  path = vim/bundle/sickill-vim-pasta
+  url = https://github.com/sickill/vim-pasta
+[submodule "vim/bundle/tpope-vim-markdown"]
+  path = vim/bundle/tpope-vim-markdown
+  url = https://github.com/tpope/vim-markdown
+[submodule "vim/bundle/esukram-taglist"]
+  path = vim/bundle/esukram-taglist
+  url = https://github.com/esukram/taglist.vim
+[submodule "vim/bundle/reinh-vim-makegreen"]
+  path = vim/bundle/reinh-vim-makegreen
+  url = https://github.com/reinh/vim-makegreen
+[submodule "vim/bundle/xenoterracide-css"]
+  path = vim/bundle/xenoterracide-css
+  url = https://github.com/xenoterracide/css.vim
+[submodule "vim/bundle/cakebaker-scss-syntax"]
+  path = vim/bundle/cakebaker-scss-syntax
+  url = https://github.com/cakebaker/scss-syntax.vim
+[submodule "vim/bundle/wesleyche-SrcExpl"]
+  path = vim/bundle/wesleyche-SrcExpl
+  url = https://github.com/wesleyche/SrcExpl
+[submodule "vim/bundle/myusuf3-numbers"]
+  path = vim/bundle/myusuf3-numbers
+  url = https://github.com/myusuf3/numbers.vim
