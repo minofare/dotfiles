@@ -1,16 +1,16 @@
 # set your user tokens as enivornment variables, such as ~/.secrets
 # See the README for examples.
 [color]
-  ui = true
+	ui = auto
 [color "branch"]
   current = yellow reverse
   local = yellow
   remote = green
 [color "diff"]
-  meta = yellow bold
-  frag = magenta bold
-  old = red bold
-  new = green bold
+  meta = yellow
+  frag = magenta
+  old = red
+  new = green
 [alias]
   # add
   a = add                           # add
@@ -39,11 +39,12 @@
   last = diff HEAD^                 # diff last committed change
 
   # log
-  l = log --graph --date=short
+  #l = log --graph --date=short
+  l = log --graph --all --decorate --color
   changes = log --pretty=format:\"%h %cr %cn %Cgreen%s%Creset\" --name-status
-  short = log --pretty=format:\"%h %cr %cn %Cgreen%s%Creset\"
+  short = log --graph --all --decorate --color --pretty=oneline
   changelog = log --pretty=format:\" * %s\"
-  shortnocolor = log --pretty=format:\"%h %cr %cn %s\"
+  shortnocolor = log --pretty=format:\"%h %s %cr\"
 
   # pull
   pl = pull                         # pull
@@ -83,7 +84,7 @@
   svnd = svn dcommit
   svnl = svn log --oneline --show-commit
 [format]
-  pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
+  #pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
 [mergetool]
   prompt = false
 [mergetool "mvimdiff"]
