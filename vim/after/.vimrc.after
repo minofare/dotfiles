@@ -1,0 +1,40 @@
+colorscheme solarized
+if has('gui_running')
+  set background=light
+  set clipboard=unnamed "Use mac clipboard
+  set go-=T
+  set ruler
+  set guifont=Inconsolata:h20
+  set lines=37
+  set columns=125
+  let g:indent_guides_start_level=2
+  let g:indent_guides_guide_size=1
+  set guioptions+=b
+  set cursorline                  " highlight current line
+  set cursorcolumn
+  hi cursorline guibg=#073642     " #073642 highlight bg color of current line
+  hi! link cursorcolumn cursorline   " highlight cursor
+else
+  set background=dark
+endif
+set history=1000
+set undolevels=1000
+
+set cindent
+set smartindent
+set autoindent
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set cinkeys=0{,0},:,0#,!^F
+set pastetoggle=<F2>
+if exists('+colorcolumn')
+  set cc=80
+endif
+set textwidth=80
+
+" Toggle indent guide
+"norm \ig
+au BufNewFile,BufRead *.hamlc set filetype=haml
+let g:NERDTreeWinPos = "right"
+
