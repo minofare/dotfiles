@@ -96,7 +96,7 @@ imap <C-a> <esc>wa
 
 " ==== NERD tree
 " Cmd-Shift-N for nerd tree
-nmap <D-N> :NERDTreeToggle<CR>
+nmap <D-N> :NERDTreeTabsToggle<CR>
 " Open the project tree and expose current file in the nerdtree with Ctrl-\
 nnoremap <silent> <C-\> :NERDTreeFind<CR>:vertical res 30<CR>
 
@@ -241,3 +241,11 @@ map <D-%> :so %<CR>
 
 " ,hp = html preview
 map <silent> ,hp :!open -a Safari %<CR><CR>
+
+if has("gui_macvim")
+  " Command-Shift-F on OSX
+  map <D-F> :Ack<space>
+else
+  " Control-Shift-F on other systems
+  map <C-F> :Ack<space>
+endif
