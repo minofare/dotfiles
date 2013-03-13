@@ -244,8 +244,8 @@ map <silent> ,hp :!open -a Safari %<CR><CR>
 
 if has("gui_macvim")
   " Command-Shift-F on OSX
-  map <D-F> :Ack<space>
+  map <D-F> :Ack!<space>
 else
   " Control-Shift-F on other systems
-  map <C-F> :Ack<space>
+  map <C-F> :Ack!<space>
 endif
